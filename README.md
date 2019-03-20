@@ -1,4 +1,4 @@
-# mip-cli-plugin-miniprogram
+# mip-cli-plugin-swan
 
 MIP Cli 的插件，可以将小程序的页面转换为[百度智能小程序](https://smartprogram.baidu.com/developer/index.html)
 
@@ -8,8 +8,8 @@ MIP Cli 的插件，可以将小程序的页面转换为[百度智能小程序](
 
 ```
 $ npm install mip2
-$ mip2 miniprogram --name index --dir . https://www.mipengine.org/
-$ mip2 miniprogram --name index --dir /home/mipengine/miniprogram index.html
+$ mip2 swan --name index --dir . https://www.mipengine.org/
+$ mip2 swan --name index --dir /home/mipengine/swan index.html
 ```
 
 通过上面的命令将会在对应的目录生成转换好的小程序页面。
